@@ -1,0 +1,24 @@
+.defaultHero,
+.otherHero {
+    /* min-height: calc(100vh - 66px); */
+    /* background: url("../../images/hero.JPG") center/cover no-repeat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.defaultHero{
+    height: calc(100vh - 100px);
+    width: 100vw;
+   
+    
+}
+
+
+
+.otherHero {
+    background-image: url("../../images/img-hero.JPG");
+    min-height: 15vh;
+}

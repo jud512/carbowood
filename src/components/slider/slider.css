@@ -1,0 +1,45 @@
+.slider{
+    width: 100%;
+    height: 100%;
+    
+}
+.sliderContainer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 4s linear;
+}
+
+.images{
+    width: 300vw;
+    height: 100%;
+    display: flex;
+    
+    
+}
+
+.images img{
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    /* overflow: hidden; */
+    
+}
+
+.circles{
+    position: absolute;
+    width: fit-content;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    color: var(--primaryColor);
+    cursor: pointer;
+    z-index: 5;
+}
+
+.hide{
+    display: none;
+}

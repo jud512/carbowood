@@ -1,0 +1,54 @@
+.home{
+
+}
+
+.recommendation{
+    width: 100%;
+    background-color: var(--persianPlum);
+    height: 60px;
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.recommendation span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* font-family: 'Arizonia', cursive; */
+    font-family: var(--font-unique);
+    font-size: 30px;
+    letter-spacing: 2px;
+    
+}
+
+
+/* smaller desktop */
+@media screen and (max-width: 1200px) {
+    
+}
+
+
+/* most tablets */
+@media screen and (max-width: 992px) {
+    
+}
+
+/* small devices */
+@media screen and (max-width: 768px) {
+    .recommendation span{
+        font-size: 20px;
+    }
+}
+
+/* smart phones */
+@media screen and (max-width: 480px) {
+    
+}
+
+
+

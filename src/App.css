@@ -1,38 +1,146 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto',
+    sans-serif;
+
+  transition: var(--mainTransition);
+  scroll-behavior: smooth;
+  
+}
+*::-webkit-scrollbar {
+  /* display: none; */
+ 
+}
+
+:root {
+/*basic colors*/
+  --cedarChest: #BA503B;
+  --wine: #602428;
+  --faluRed: #7C2A21;
+  --persianPlum: #6E201B; /*one of the main colors*/
+  --brandy: #8A3732;
+  --faluRed2: #77241D;
+  --copperRed: #BC725E;
+
+  --persianPlum-opacity: rgba(110, 32, 27, 0.4);
+  --persianPlum-opacity-3: rgba(110, 32, 27, 0.9);
+  /* --persianPlum-opacity-2: rgba(77, 35, 31, 0.7); */
+  --persianPlum-opacity-2: rgba(64, 63, 63, 0.45);
+/*shades*/
+--try1: #ebd5cf;
+--try2: #f2e3df;
+
+--try3: #9a635f;
+--try3-2: #dda89d;
+--try4: #e2d2d1;
+--try5: #f1e9e8;
+--try6: #f8eeeb;
+
+
+  --primaryColor: #af9a7d;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #cfcfcf;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 3px;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+
+  /* font-families */
+  --font-banner-heading: 'Bonheur Royale', cursive;
+  --font-unique: 'Arizonia', cursive;
+}
+
+body {
+  padding-top: 66px;
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+}
+
+h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainBlack);
+  /* background: var(--primaryColor); */
+  background: var(--try3-2);
+  padding: 0.4rem 0.9rem;
+  /* border: 3px solid var(--primaryColor); */
+  border: 3px solid var(--try3-2);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color: var(--primaryColor);
+  color: var(--try3-2);
+}
+
+.loading {
+  text-transform: capitalize;
   text-align: center;
+  margin-top: 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.error {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2rem 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.empty-search {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 2rem 0;
+  padding: 1rem;
+  letter-spacing: var(--mainSpacing);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* end of globals */
