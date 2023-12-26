@@ -11,24 +11,32 @@ const Introduction = () => {
           <img src={imageTP} alt="Tóth Péter vonókészítő" />
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-          quaerat magni cumque laboriosam odit saepe excepturi repudiandae hic
-          perferendis maiores minima quibusdam, blanditiis dolorem. Sunt placeat
-          et quidem explicabo ipsam ex nisi cum iste error at aspernatur hic
-          sint accusantium facilis laborum voluptatem sequi a quis, quibusdam
-          doloremque ducimus, distinctio non rerum numquam? Vitae assumenda vero
-          maxime rem nesciunt dolores asperiores odit culpa, possimus
-          voluptatum. Adipisci, vitae ad! Voluptates facere accusantium culpa
-          doloremque sit nulla enim modi, qui maxime quidem quis, cupiditate
-          iure praesentium corporis quisquam! Facere tempora pariatur deserunt
-          corrupti, debitis quibusdam ex ipsa, dicta laboriosam iure nobis totam
-          cumque dignissimos laudantium iusto rem autem officia veniam
-          aspernatur. Voluptate, mollitia! Fugit obcaecati exercitationem
-          itaque? Enim laudantium nihil id nostrum nesciunt, sit aut quae.
-          Tempora laborum optio iure repudiandae, dolorum doloribus iusto, fugit
-          non culpa laboriosam blanditiis possimus iste nihil illo? Magni illo
-          ad quae, incidunt quisquam qui dolores natus minima, sequi officia
-          cumque maxime inventore aliquam quidem?
+          Brácsaművészként diplomáztam, de a zene mellett mindig érdekelt a
+          famunka, a technika, a hangszerek működése. Emellett hobbiként fúrtam
+          faragtam, később az asztalos szakmát is kitanultam. Az asztalos
+          szakmában is a szokatlan formatervezési és technikai megoldások
+          izgatnak. Mivel fiatalkoromat gyakorlással töltöttem, a
+          hangszerkészítést autodidakta módon kellett megtanulnom. Ez vonós
+          hangszeres zenészként és famunkában jártas emberként nem jelentett
+          nagy kihívást. A saját brácsám elkészítése után -mivel ez egy
+          szabványosnál sokkal szélesebb hangszer- muszáj volt egy tokot is
+          készíteni. Ezt szénszálas műanyagból építettem, hogy könnyű legyen és
+          erős. Néhány vonós hangszer elkészítése után kipróbáltam magam a
+          vonókészítésben is. A legnagyobb problémát a megfelelő alapanyag
+          beszerzése jelentette. A szénszálas műanyaggal való tapasztalatom és
+          az újító kedvem ösztökélt arra, hogy kipróbáljam a fa és a szénszál
+          újfajta egyesítését a vonókészítésben. Pernambukfát gyakorlatilag nem
+          lehet kapni, ezért kénytelen voltam más fát használni, és ennek a más
+          fának a gyengeségeit a szénszál rendkívüli mechanikai tulajdonságaival
+          kompenzálni. Az első vonó nem volt túl szép, de meglepően jól
+          működött. Innen már nem volt visszaút, muszáj volt további vonókat
+          készíteni, további kísérleteket végezni különböző fajta fákkal,
+          különböző szén-fa arányokkal. Menet közben természetesen nem
+          kerülhettem ki a megfelelő szakirodalom beszerzését és az abban
+          fellelhető tudás elsajátítását sem. Az eddig elkészített több tucatnyi
+          vonóból és a zenész kollégák visszajelzéseiből nagyon sokat tanultam,
+          kirajzolódott, hogy a kompozit vonók által nyitott rengeteg irány
+          közül melyek azok, amelyeken érdemes tovább haladnom.
         </p>
       </div>
       <FeaturedGallery />
