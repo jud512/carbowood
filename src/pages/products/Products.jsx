@@ -27,10 +27,10 @@ const Products = () => {
 
             </div>
             <div className="productMiddle">
-                <div className="productImg">
+                <div className="productImg left">
                     <img src={dp.imgCsucs} alt={dp.nameCsucs} />
                 </div>
-                <div className="productImg"><img src={dp.imgKapa} alt={dp.nameKapa} /></div>
+                <div className="productImg right"><img src={dp.imgKapa} alt={dp.nameKapa} /></div>
             </div>
             <div className="productText">{dp.name}</div>
 
@@ -54,10 +54,10 @@ const Products = () => {
 
             </div>
             <div className="productMiddle">
-                <div className="productImg">
+                <div className="productImg left">
                     <img src={dp.imgCsucs} alt={dp.nameCsucs} />
                 </div>
-                <div className="productImg"><img src={dp.imgKapa} alt={dp.nameKapa} /></div>
+                <div className="productImg right"><img src={dp.imgKapa} alt={dp.nameKapa} /></div>
             </div>
             <div className="productText">{dp.name}</div>
 

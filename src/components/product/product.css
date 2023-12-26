@@ -44,7 +44,14 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.productImg.left img{
     object-position: left;
+}
+
+.productImg.right img {
+    object-position: right;
 }
 
 /* smaller desktop */

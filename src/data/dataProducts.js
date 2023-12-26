@@ -23,6 +23,10 @@ import imgPurpleViolEgesz from "../images/products/purple_heart_egesz.jpg";
 import imgPurpleViolCsucs from "../images/products/purple_heart_cello_csucs.jpg";
 import imgPurpleViolKapa from "../images/products/purple_heart_cello_kapa.jpg";
 
+import imgPlatanViolEgesz from "../images/products/platan_viol_egesz.jpg";
+import imgPlatanViolCsucs from "../images/products/platan_viol_csucs.jpg";
+import imgPlatanViolKapa from "../images/products/platan_viol_kapa.jpg";
+
 export const dataProductsViolin = [
   {
     id: 1,
@@ -68,6 +72,15 @@ export const dataProductsViolin = [
     nameCsucs: "Purpleheart hegedűvonó csúcsa",
     imgEgesz: imgPurpleViolEgesz,
     name: "Purpleheart hegedűvonó",
+  },
+  {
+    id: 6,
+    imgKapa: imgPlatanViolKapa,
+    nameKapa: "Platán hegedűvonó kápája",
+    imgCsucs: imgPlatanViolCsucs,
+    nameCsucs: "Platán hegedűvonó csúcsa",
+    imgEgesz: imgPlatanViolEgesz,
+    name: "Platán hegedűvonó",
   },
 ];
 
