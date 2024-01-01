@@ -11,20 +11,46 @@ const Carbowood = () => {
         <Banner banner="bannerOther" title="Mi az a CarboWood?"></Banner>
       </Hero>
       <div className="carbowoodContainer">
-        <p>
-          Röviden: fa vonó szénszál erősítéssel. A vonós hangszerek
-          elengedhetetlen tartozéka a vonó, ami pernambukfából készül. Ezt a fát
-          eredetileg textilek festésére használták, de a kísérletező
-          vonókészítők hamar felismerték a jó mechanikai tulajdonságait, így a
-          19. század óta Francois Tourte munkásságának köszönhetően szinte csak
-          ebből a fából készítik.
-        </p>
+        <div style={{ display: "flex" }}>
+          <p>
+            Röviden: fa vonó szénszál erősítéssel. A vonós hangszerek
+            elengedhetetlen tartozéka a vonó, ami pernambukfából készül. Ezt a
+            fát eredetileg textilek festésére használták, de a kísérletező
+            vonókészítők hamar felismerték a jó mechanikai tulajdonságait, így a
+            19. század óta Francois Tourte munkásságának köszönhetően szinte
+            csak ebből a fából készítik.
+          </p>
+          <div className="img-container">
+            <img
+              className="img-text-tourte"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/F.X.Tourte_engraving_by_J.Frey_1818.jpg/800px-F.X.Tourte_engraving_by_J.Frey_1818.jpg"
+              alt=""
+              width="150px"
+            />
+          </div>
+        </div>
+
         <p>
           A pernambukfát az évek során gyakorlatilag teljesen kiirtották, emiatt
           a fokozottan veszélyeztetett fajok listájára került, így egyre
           nehezebben és egyre rosszabb minőségben lehet csak beszerezni. Évek
           óta folynak kísérletek e fának a pótlására a vonókészítésben.
         </p>
+        <div style={{ textAlign: "center" }}>
+          <img
+            className="img-text-left"
+            src="https://upload.wikimedia.org/wikipedia/commons/3/3a/%C3%81rvore_pau-brasil_%28Paubrasilia_echinata%29_por_Jani_Pereira.jpg"
+            alt=""
+            height="250px"
+          />
+          <img
+            className="img-text-left"
+            src="https://scontent.fbud6-4.fna.fbcdn.net/v/t39.30808-6/278199397_4770254936429704_4770527388258616775_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_ohc=0s4Q-xLIQaEAX8GM4tO&_nc_ht=scontent.fbud6-4.fna&oh=00_AfDxTEhVRLtlFe6tQR0L9qK2uIIchmup_gdZ8qbXvTkt4w&oe=65986712"
+            alt=""
+            height="250px"
+          />
+        </div>
+
         <p>
           Az egyik lehetőség egy másik fával való helyettesítése. A szintén
           egzotikus kígyófa adhat valamiféle megoldást, de ez a fa kevésbé
@@ -32,6 +58,7 @@ const Carbowood = () => {
           használják. A vasfából (olneya tesota) is jó minőségű vonók
           készíthetők, de ez is védett faj, így ez sem lehet alternatíva.
         </p>
+
         <p>
           Másik lehetőség a szénszálas vonók alkalmazása, egy harmadik irány
           pedig a szénszál és fa valamilyen fajta kompozíciója. Tömegtermelésben

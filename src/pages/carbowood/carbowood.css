@@ -1,16 +1,31 @@
 .carbowoodContainer{
-    width: 80%;
+    width: 60%;
     margin: 30px auto;
-    padding: 30px;
+    padding: 50px;
     border: 1px solid lightgray;
     border-radius: 20px;
     box-shadow: 5px 3px 5px 0px rgba(125, 117, 117, 0.75);
         -webkit-box-shadow: 5px 3px 5px 0px rgba(125, 117, 117, 0.75);
         -moz-box-shadow: 5px 3px 5px 0px rgba(125, 117, 117, 0.75);
-    
+
 }
 
 .carbowoodContainer p{
     margin-bottom: 10px;
     line-height: 34px;
+}
+
+.carbowoodContainer .img-text-right
+{
+    float: right;
+}
+
+.carbowoodContainer .img-text-left {
+    /* float: left; */
+    margin-right: 10px;
+}
+
+.img-text-tourte {
+    margin-right: 20px;
+    margin-left: 20px;
 }
