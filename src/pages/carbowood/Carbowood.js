@@ -3,6 +3,10 @@ import React from "react";
 import Hero from "../../components/hero/Hero";
 import Banner from "../../components/banner/Banner";
 import "./carbowood.css";
+import imgKompBow from "../../images/carbowood/comp_bow.JPG";
+import imgPernabuk from "../../images/carbowood/pernambuk.jpg";
+import imgCsucs from "../../images/carbowood/csucs.JPG";
+import logo from "../../images/logo_wb.png";
 
 const Carbowood = () => {
   return (
@@ -11,14 +15,21 @@ const Carbowood = () => {
         <Banner banner="bannerOther" title="Mi az a CarboWood?"></Banner>
       </Hero>
       <div className="carbowoodContainer">
-        <div style={{ display: "flex" }}>
+        <div>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <h2 style={{ margin: "0 8px 0 0" }}>Mi az a</h2>
+            <img src={logo} alt="" width="300px" />
+            <h2 style={{ margin: "0 0 0 8px" }}>?</h2>
+          </div>
+
+          <p>Röviden: fa vonó szénszál erősítéssel. </p>
           <p>
-            Röviden: fa vonó szénszál erősítéssel. A vonós hangszerek
-            elengedhetetlen tartozéka a vonó, ami pernambukfából készül. Ezt a
-            fát eredetileg textilek festésére használták, de a kísérletező
-            vonókészítők hamar felismerték a jó mechanikai tulajdonságait, így a
-            19. század óta Francois Tourte munkásságának köszönhetően szinte
-            csak ebből a fából készítik.
+            A vonós hangszerek elengedhetetlen tartozéka a vonó, ami
+            tradícionálisan pernambukfából készül. Ezt a fát régen textilek
+            festésére használták, de a kísérletező vonókészítők hamar
+            felismerték a jó mechanikai tulajdonságait, így a 19. század óta
+            François Tourte munkásságának köszönhetően szinte csak ebből a fából
+            készítik.
           </p>
           <div className="img-container">
             <img
@@ -27,6 +38,7 @@ const Carbowood = () => {
               alt=""
               width="150px"
             />
+            <p className="img-title">François Tourte</p>
           </div>
         </div>
 
@@ -37,18 +49,22 @@ const Carbowood = () => {
           óta folynak kísérletek e fának a pótlására a vonókészítésben.
         </p>
         <div style={{ textAlign: "center" }}>
-          <img
-            className="img-text-left"
-            src="https://upload.wikimedia.org/wikipedia/commons/3/3a/%C3%81rvore_pau-brasil_%28Paubrasilia_echinata%29_por_Jani_Pereira.jpg"
-            alt=""
-            height="250px"
-          />
-          <img
-            className="img-text-left"
-            src="https://scontent.fbud6-4.fna.fbcdn.net/v/t39.30808-6/278199397_4770254936429704_4770527388258616775_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_ohc=0s4Q-xLIQaEAX8GM4tO&_nc_ht=scontent.fbud6-4.fna&oh=00_AfDxTEhVRLtlFe6tQR0L9qK2uIIchmup_gdZ8qbXvTkt4w&oe=65986712"
-            alt=""
-            height="250px"
-          />
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <img
+              className="img-text-left"
+              src="https://upload.wikimedia.org/wikipedia/commons/3/3a/%C3%81rvore_pau-brasil_%28Paubrasilia_echinata%29_por_Jani_Pereira.jpg"
+              alt=""
+              height="250px"
+            />
+            <img
+              className="img-text-left"
+              src={imgPernabuk}
+              alt=""
+              height="250px"
+            />
+          </div>
+          <div></div>
+          <p className="img-title">Pernambuk fa (Paubrasilia echinata)</p>
         </div>
 
         <p>
@@ -68,26 +84,42 @@ const Carbowood = () => {
           kinézetében fa, mechanikai és hangzásbeli tulajdonságait tekintve
           szénszálas műanyag.
         </p>
+        <div style={{ textAlign: "center" }}>
+          <img
+            className="img-text-left"
+            src={imgKompBow}
+            alt=""
+            height="250px"
+          />
+          <p className="img-title">Gyári kompozit vonó kettéfűrészelve</p>
+        </div>
+
         <p>
           A CARBOWOOD ennek az ellenkezője: Fa vonó, de szénszállal erősítve. A
           szénszál extrém szakítószilárdsággal rendelkezik, és húzáskor szinte
-          egyáltalán nem nyúlik. Amikor egy rudat meghajlítunk, akkor a külső
-          íven a hajlításkor a hajlítóerők húzóerővé transzformálódnak és a rúd
-          külső oldala kicsit megnyúlik. Ha szénszálat ragasztunk ennek a rúdnak
-          a külső oldalára, akkor a szénszál nem engedi a rúd külső oldalát
-          megnyúlni, és ez azt eredményezi, hogy az addig hajlékony anyag
-          merevebb lesz. Szénszálas merevítéssel elérhető az, hogy a
-          kereskedelemben könnyebben elérhető fákból is megfelelő vonó
-          alapanyagot készítsünk. A CARBOWOOD súlyának legnagyobb része fa, kis
-          részben tartalmaz szénszálas műanyagot. A szénszál nem teszi ki a vonó
-          tömegének nagy részét, hanem csupán két vízszintes szál fut végig a
-          vonó keresztmetszetének körülbelül az 1/4 és 3/4-én, így a vonó
-          sajátrezgése és annak felharmonikusai a tömör fához hasonlóak. Ezen
-          kívül – mivel a szénszálak vízszintes síkban futnak végig a vonó
-          hosszában – a föl-le, illetve jobbra-balra való hajlításnak
-          különbözőképpen áll ellen a pálca. Föl le irányban rugalmas és
-          hajlékony, viszont oldal irányban erős, nem bukik ki a hegedűjáték
-          során.
+          egyáltalán nem nyúlik. Nem szükséges, hogy a rúd teljes
+          keresztmetszetében szénszálból álljon, ahogyan azt egyes
+          sorozatgyártású vonóknál tapasztalhatjuk. Elég csak vékony rétegben
+          alkalmazni azt a szükséges pontokon. A szénszál középvonalhoz
+          viszonyított elhelyezése befolyásolja a rúd merevségét. Minél inkább a
+          hajlítandó rúd szélén van, annál jobban merevíti azt, és minél inkább
+          a közepén helyezkedik el, annál inkább semleges a hatása. Mivel a
+          szénszál nem teszi ki a vonó tömegének nagy részét, hanem csupán két
+          vízszintes szál fut végig a vonó keresztmetszetének körülbelül az 1/4
+          és 3/4-én, így a vonó sajátrezgése és annak felharmonikusai a tömör
+          fához hasonlóak.
+        </p>
+        <p>
+          Szénszálas merevítéssel elérhető az, hogy a kereskedelemben könnyebben
+          elérhető fákból is megfelelő vonó alapanyagot készítsünk. A CARBOWOOD
+          súlyának legnagyobb része fa, kis részben tartalmaz szénszálas
+          műanyagot. Ezen kívül – mivel a szénszálak vízszintes síkban futnak
+          végig a vonó hosszában – a föl-le, illetve jobbra-balra való
+          hajlításnak különbözőképpen áll ellen a pálca. Föl le irányban
+          rugalmas és hajlékony, viszont oldal irányban erős, nem bukik ki a
+          hegedűjáték során. A két szénszál vastagságával, egymáshoz
+          viszonyított távolságával, a felhasznált fa típusával nagymértékben
+          variálható a vonó hajlékonysága, merevsége, rezonanciája, súlya.
         </p>
         <p>
           A két szénszál vastagságával, egymáshoz viszonyított távolságával, a
@@ -98,6 +130,12 @@ const Carbowood = () => {
           fa erezete, hanem követi a vonócsúcs ívét, ebből következően sosem
           törik le a csúcs.
         </p>
+        <div style={{ textAlign: "center" }}>
+          <img className="img-text-left" src={imgCsucs} alt="" height="250px" />
+          <p className="img-title">
+            A két szélső faréteg erezete és a szénszálak követik a csúcs ívét
+          </p>
+        </div>
         <p>
           A Carbowood vonók közti különbség a felhasznált fa fajtájából adódik.
           A jelenlegi készletben a leglágyabb a mahagóni, közepesen lágy a
