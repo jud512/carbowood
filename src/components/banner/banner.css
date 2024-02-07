@@ -7,7 +7,7 @@
     height: 100%;
     /* background: rgba(0, 0, 0, 0.5); */
     color: var(--mainWhite);
-   
+
     /* border: 5px solid var(--try3-2); */
     position: absolute;
     top: 0px;
@@ -20,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .banner .bannerContainer{
@@ -29,7 +29,7 @@
     height: fit-content;
     padding: 2rem 1rem;
         text-align: center;
-    
+
 }
 
 .bannerOther {
@@ -40,15 +40,16 @@
     padding: 4rem 1rem;
     text-align: center;
     width: 100%;
-    
+
 }
 
 .bannerOther h1,
 .banner h1 {
     font-size: 2.5rem;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
     font-family: var(--font-unique);
-    letter-spacing: 7px;
+    letter-spacing: 3px;
+    font-weight: 300;
 }
 
 
@@ -68,7 +69,7 @@
     margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 576px) {    
+@media screen and (min-width: 576px) {
     .banner {
         padding: 2rem 3rem;
     }
