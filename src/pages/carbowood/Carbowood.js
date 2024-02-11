@@ -117,9 +117,7 @@ const Carbowood = () => {
           végig a vonó hosszában – a föl-le, illetve jobbra-balra való
           hajlításnak különbözőképpen áll ellen a pálca. Föl le irányban
           rugalmas és hajlékony, viszont oldal irányban erős, nem bukik ki a
-          hegedűjáték során. A két szénszál vastagságával, egymáshoz
-          viszonyított távolságával, a felhasznált fa típusával nagymértékben
-          variálható a vonó hajlékonysága, merevsége, rezonanciája, súlya.
+          hegedűjáték során.
         </p>
         <p>
           A két szénszál vastagságával, egymáshoz viszonyított távolságával, a
