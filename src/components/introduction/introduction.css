@@ -1,7 +1,7 @@
 .introduction {
     padding: 5rem 0;
     text-align: center;
-    
+
 }
 
 .introduction-center {
@@ -28,10 +28,12 @@
     align-items: center;
     flex: 1;
     border-radius: 10px;
+
 }
 
 .img-container img{
     border-radius: 10px;
+    width: 16rem;
 }
 
 .introduction-center p {
@@ -39,7 +41,7 @@
     line-height: 2rem;
     font-size: 1.2rem;
     flex: 3;
-    
+
 }
 
 /* smaller desktop */
@@ -66,5 +68,5 @@
 
 /* smart phones */
 @media screen and (max-width: 480px) {
-    
+
 }
