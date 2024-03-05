@@ -22,6 +22,7 @@ const GalleryComponent = ({dataGallery, setOpenGallery, clickedImgId}) => {
     const length = dataGallery.length;
     currentIdx === length - 1 ? setCurrentIdx(0) : setCurrentIdx(currentIdx + 1) ;
   }
+  console.log('GALLERY ELEMENT',dataGallery[currentIdx])
 
   return (
     <div className="galleryOverlay">
@@ -41,18 +42,18 @@ const GalleryComponent = ({dataGallery, setOpenGallery, clickedImgId}) => {
               <KeyboardArrowRightRoundedIcon/>
             </div>
           </div>
-          
+
           <div className="galleryTitle">
             <p>
-              {dataGallery[clickedImgIdx].name}
+              {dataGallery[currentIdx].name}
             </p>
-            
+
           </div>
         </div>
-        
+
       </div>
     </div>
-    
+
   )
 }
 
