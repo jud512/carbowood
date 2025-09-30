@@ -20,9 +20,14 @@ export const linksHU = [
     url: "/carbowood",
   },
   {
-    id: 4,
-    name: "Galéria",
-    url: "/gallery",
+    id: 7,
+    name: "Hangszerjavítás",
+    url: "/instrumen-repair",
+  },
+  {
+    id: 8,
+    name: "Vonószőrözés",
+    url: "/bow-hair",
   },
   {
     id: 5,
